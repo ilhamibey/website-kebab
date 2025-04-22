@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="assets/img/logo-kebab.png" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.min.css"
+    />
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Kebab, délices</title>
+  </head>
+  <body>
+    <!-- ============ L O A D E R ================== -->
+
+    <!-- ============ H E A D E R ================== -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <div>
+            <img src="assets/img/logo-kebab.png" alt="restaurant burger" />
+          </div>
+          Kebab
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li>
+              <a href="#home" class="nav__link active-link">Accueil</a>
+            </li>
+
+            <li>
+              <a href="#popular" class="nav__link"> Menus </a>
+            </li>
+
+            <li>
+              <a href="#recipe" class="nav__link"> Carte </a>
+            </li>
+
+            <li>
+              <a href="#delivery" class="nav__link">Nos Mets</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="nav__link"> Contact </a>
+            </li>
+          </ul>
+
+          <!-- close button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-large-line"></i>
+          </div>
+        </div>
+
+        <!-- Toggle button -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-apps-fill"></i>
+        </div>
+      </nav>
+    </header>
+    <!-- ============ M A I N  ================== -->
+    <main class="main">
+      <!-- ====== HOME  =============-->
+      <section class="section home" id="home">
+        <div class="home__container container grid">
+          <div class="home__data">
+            <h1 class="home__title">
+              Nous aimons<br />
+              le kebab
+            </h1>
+            <p class="home__description">
+              Nous servons de délicieux kebabs, en choisissant les meilleurs
+              ingrédients, et en les préparant avec soin. Nous avons une grande
+              variété de sauces et d'accompagnements.
+            </p>
+
+            <a href="#popular" class="button"> Allez </a>
+            <img
+              src="assets/img/sticker-potatoes.png"
+              alt=""
+              class="home__sticker"
+            />
+          </div>
+          <div class="home__images">
+            <img
+              src="assets/img/popular-kebab.webp"
+              alt=""
+              class="home__burger"
+            />
+            <img src="assets/img/home-dish.png" alt="" class="home__dish" />
+
+            <img
+              src="assets/img/home-potato.png"
+              alt=""
+              class="home__ingredient home__potato-1"
+            />
+            <img
+              src="assets/img/home-potato.png"
+              alt=""
+              class="home__ingredient home__potato-2"
+            />
+            <img
+              src="assets/img/home-tomato.png"
+              alt=""
+              class="home__ingredient home__tomato-1"
+            />
+            <img
+              src="assets/img/home-tomato.png"
+              alt=""
+              class="home__ingredient home__tomato-2"
+            />
+            <img
+              src="assets/img/home-lettuce.png"
+              alt=""
+              class="home__ingredient home__lettuce-1"
+            />
+            <img
+              src="assets/img/home-lettuce.png"
+              alt=""
+              class="home__ingredient home__lettuce-2"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- =========== MENUS ============== -->
+      <section class="section popular" id="popular">
+        <h2 class="section__title">Meilleurs Kebabs<br />Engloutis</h2>
+        <div class="popular__container container grid">
+          <article class="popular__card">
+            <img src="assets/img/menu-kebab.webp" alt="" class="popular__img" />
+
+            <h2 class="popular__title">Kebab Classique</h2>
+            <span class="popular__price">6,50 €</span>
+          </article>
+
+          <article class="popular__card">
+            <img src="assets/img/menu-tacos.png" alt="" class="popular__img" />
+
+            <h2 class="popular__title">Tacos</h2>
+            <span class="popular__price">6,40 €</span>
+          </article>
+
+          <article class="popular__card">
+            <img
+              src="assets/img/menu-galette.webp"
+              alt=""
+              class="popular__img"
+            />
+
+            <h2 class="popular__title">Galette <br /></h2>
+            <span class="popular__price">5,50 €</span>
+          </article>
+
+          <article class="popular__card">
+            <img
+              src="assets/img/formule-kebab.webp"
+              alt=""
+              class="popular__img"
+            />
+
+            <h2 class="popular__title">Formule Kebab</h2>
+            <span class="popular__price">9,50 €</span>
+          </article>
+
+          <article class="popular__card">
+            <img
+              src="assets/img/formule-tacos.webp"
+              alt=""
+              class="popular__img"
+            />
+
+            <h2 class="popular__title">Formule Tacos</h2>
+            <span class="popular__price">8,50 €</span>
+          </article>
+        </div>
+      </section>
+
+      <!-- ==========  RECIPE  =============== -->
+      <section class="section recipe" id="recipe">
+        <h2 class="section__title">Notre Carte</h2>
+
+        <div class="recipe__container container grid">
+          <div class="recipe__image">
+            <img
+              src="assets/img/recipe-burger.png"
+              alt=""
+              class="recipe__img"
+            />
+          </div>
+          <div class="recipe__data">
+            <div class="recipe__card">
+              <div class="recipe__box">
+                <h3 class="recipe__title--assiette">Assiette Kebab</h3>
+                <img src="assets/img/assiette-kebab.png" alt="" />
+                <div class="price__assiette">
+                  <div class="price__assiette--block">
+                    <span>11,90 €</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="recipe__card">
+              <div class="recipe__box">
+                <h3 class="recipe__title--assiette">Assiette Adana</h3>
+                <img src="assets/img/assiette-adana.png" alt="" />
+                <div class="price__assiette">
+                  <div class="price__assiette--block">
+                    <span>13,90 €</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="recipe__card">
+              <div class="recipe__box">
+                <h3 class="recipe__title--assiette">Assiette Mixte</h3>
+                <img src="assets/img/assiette-mixte.png" alt="" />
+                <div class="price__assiette">
+                  <div class="price__assiette--block">
+                    <span>12,90 €</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="recipe__card">
+              <div class="recipe__box">
+                <h3 class="recipe__title--assiette">Assiette Poulet</h3>
+                <img src="assets/img/assiette-poulet.png" alt="" />
+                <div class="price__assiette">
+                  <div class="price__assiette--block">
+                    <span>11,90 €</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="recipe__card">
+              <div class="recipe__box">
+                <h3 class="recipe__title--assiette">Assiette Végetarienne</h3>
+                <img src="assets/img/assiette-vegetarienne.png" alt="" />
+                <div class="price__assiette">
+                  <div class="price__assiette--block">
+                    <span>10,90 €</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===========  DELIVERY ============== -->
+      <section class="section delivery" id="delivery">
+        <h2 class="section__title">Tous Nos Mets</h2>
+        <div class="delivery__container container grid">
+          <div class="delivery__data">
+            <h3 class="section__title">Sauces</h3>
+            <div class="delivery__sauces">
+              <div class="delivery__sauce">
+                <img src="assets/img/sauce-ketchup.png" alt="" />
+                <h3 class="delivery__sauce-title">Ketchup</h3>
+              </div>
+
+              <div class="delivery__sauce">
+                <img src="assets/img/sauce-mayo.png" alt="" />
+                <h3 class="delivery__sauce-title">Mayo</h3>
+              </div>
+
+              <div class="delivery__sauce">
+                <img src="assets/img/sauce-blanche.png" alt="" />
+                <h3 class="delivery__sauce-title">Blanche</h3>
+              </div>
+
+              <div class="delivery__sauce">
+                <img src="assets/img/sauce-hannibal.png" alt="" />
+                <h3 class="delivery__sauce-title">Hannibal</h3>
+              </div>
+
+              <div class="delivery__sauce">
+                <img src="assets/img/sauce-harissa.png" alt="" />
+                <h3 class="delivery__sauce-title">Harissa</h3>
+              </div>
+
+              <div class="delivery__sauce">
+                <img src="assets/img/sauce-samourai.png" alt="" />
+                <h3 class="delivery__sauce-title">Samourai</h3>
+              </div>
+
+            </div>
+
+            
+          </div>
+          <div class="delivery__data">
+            <h3 class="section__title">Accompagnements</h3>
+            <div class="delivery__mets">
+              <div class="delivery__met">
+                <img src="assets/img/mets-cheese.png" alt="" />
+                <h3 class="delivery__sauce-title">Cheese</h3>
+              </div>
+
+              <div class="delivery__met">
+                <img src="assets/img/mets-fries.png" alt="" />
+                <h3 class="delivery__sauce-title">Frites</h3>
+              </div>
+
+              <div class="delivery__met">
+                <img src="assets/img/mets-nuggets.png" alt="" />
+                <h3 class="delivery__sauce-title">Nuggets</h3>
+              </div>
+
+              <div class="delivery__met">
+                <img src="assets/img/mets-onions.png" alt="" />
+                <h3 class="delivery__sauce-title">Onions</h3>
+              </div>
+
+              <div class="delivery__met">
+                <img src="assets/img/mets-tenders.png" alt="" />
+                <h3 class="delivery__sauce-title">Tenders</h3>
+              </div>
+
+
+            </div>
+
+            
+          </div>
+        </div>
+      </section>
+
+      <!-- ===========  CONTACT ============== -->
+      <section class="section contact" id="contact">
+        <div class="contact__container container grid">
+          <h2 class="section__title">Contactez-Nous</h2>
+          <div class="contact__content grid">
+            <div class="contact__data grid">
+              <div>
+                <h3 class="contact__title">Ecrivez nous</h3>
+                <div class="contact__social">
+                  <a
+                    href="https://api.whatsapp.com/send?phone=5165165"
+                    target="_blank"
+                  >
+                    <i class="ri-whatsapp-fill"></i>
+                  </a>
+
+                  <a href="https://facebook.com" target="_blank">
+                    <i class="ri-facebook-fill"></i>
+                  </a>
+
+                  <a href="https://t.me/telegram" target="_blank">
+                    <i class="ri-telegram-fill"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div>
+                <h3 class="contact__title">Appelez et commandez</h3>
+                <address class="contact__info">00 33 2 31 45 65 45</address>
+              </div>
+
+              <div>
+                <h3 class="contact__title">On est ici</h3>
+                <address class="contact__info">
+                  17 Rue des arcades <br />
+                  75014 Paris
+                </address>
+              </div>
+            </div>
+
+            <div class="contact__image">
+              <img
+                src="assets/img/delivery-man.png"
+                alt=""
+                class="contact__img"
+              />
+            </div>
+          </div>
+
+          <img
+            src="assets/img/sticker-burger.png"
+            alt=""
+            class="contact__sticker-1"
+          />
+          <img
+            src="assets/img/sticker-soda.png"
+            alt=""
+            class="contact__sticker-2"
+          />
+        </div>
+      </section>
+      <!-- =========== BLOG ============== -->
+    </main>
+
+    <!-- ============ F O O T E R  ================== -->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <a href="" class="footer__logo">KEBAB</a>
+        <div class="footer__content grid">
+          <div class="footer__social">
+            <a href="https://www.facebook.com" target="_blank">
+              <i class="ri-facebook-circle-fill"></i>
+            </a>
+
+            <a href="https://www.instagram.com" target="_blank">
+              <i class="ri-instagram-fill"></i>
+            </a>
+
+            <a href="https://twitter.com" target="_blank">
+              <i class="ri-twitter-x-fill"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <span class="footer__copy"> &#169; Tous droits réservés</span>
+    </footer>
+
+    <!-- =========== SCROLL UP-=============-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+    <!-- =========== SCROLL REVEAL-=============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <!-- =========== MAIN JS-=============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
